@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "ToDo App",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "sdkVersion": "49.0.0",
+    "platforms": ["ios", "android", "web"],
+    "plugins": ["expo-notifications"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todoapp.mobile"
+    },
+    "android": {
+      "package": "com.todoapp.mobile",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    }
+  }
+}
